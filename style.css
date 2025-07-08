@@ -1,0 +1,214 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#main {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#top {
+    min-height: 60vh;
+    width: 100%;
+   background-image: url(https://plus.unsplash.com/premium_photo-1723741285257-378423c8fbef?q=80&w=1909&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: 50% 70%;
+}
+
+#bottom {
+    display: flex;
+    min-height: 40vh;
+    width: 100%;
+}
+
+#bone{
+    padding: 30px;
+    width: 25%;
+    min-height: inherit;
+    background-color: white;
+}
+
+#bone{
+font-size: 10px;
+margin-top: 40px;
+}
+
+#btwo{
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1481174228429-b2c3f5680a7a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthree{
+    width: 20%;
+    min-height: inherit;
+    background-color: rgb(229, 255, 0);
+} 
+
+#bthreetop{
+    color: white;
+    width: 92%;
+    min-height: 20vh;
+    padding: 12px;
+    background-color: orangered;
+}
+
+#bthreetop {
+    font-size: 10px;
+}
+
+#bthreebottom{
+    width: 100%;
+    min-height: 32vh;
+    background-image: url(https://media.istockphoto.com/id/2200623250/photo/amazing-botanical-garden-in-sunbeams-of-sunset-willow-tree.jpg?s=2048x2048&w=is&k=20&c=FAdvcfDOFbleUhMpY3VE45WQbQ5glu67dVhUev6yfG0=); 
+    background-size: cover; 
+    /* background-position: center; */
+}
+
+#bfour{
+    width: 30%;
+    min-height: inherit;
+    background-color: rgba(9, 5, 7, 0.867);
+    color: white;
+    padding: 30px;
+
+}
+
+#overlay {
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(16, 1, 1, 0.498);
+}
+
+#text {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    width: 115%;
+    bottom: 25%;
+    padding: 0 12VW;
+    padding-left: 3px;
+}
+
+#text h1{
+    font-weight: 400;
+    font-size: 4vw;
+    color: rgb(252, 249, 249);
+    margin-top: 58px;
+    margin-left: 102px;
+    /* filter: drop-shadow(2px 3px 8px black); */
+}
+
+#right {
+    align-items: center;
+    display: flex;
+    width: 60%;
+    color: aliceblue;
+    }
+
+#right p {
+    font-size: 10px;
+    width: 25%;
+    text-align: right ;
+    margin: 2px;
+    justify-content: space-between ;
+}
+
+#parent {
+text-align: right;
+color: rgb(237, 241, 244);
+margin: 90px;
+}
+
+#notf{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#notf #photo {
+background-color: red;
+width: 40px;
+height: 40px;
+border-radius: 45%; }
+
+#notf p{
+width: 86%;
+font-size: 12px;
+}
+
+@media(max-width: 500px){
+    #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+        }
+
+    #overlay #text #right {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #overlay #text #right p{
+        width: initial;
+        margin-top: 20px;
+    }
+    #overlay #text #right #icons {
+        margin-top: 30px;
+    }
+    #text #h1 {
+        font-size: 10vw;
+    }
+    #bottom{
+        flex-direction: column;
+    }
+    #bone {
+        width: 100%;
+    }
+    #btwo {
+        width: 100%;
+    }
+    #bthree {
+        width: 100%;
+        flex-direction: column;
+    }
+    #bfour {
+        width: 100%;
+    }
+    #bthreebottom{
+        min-height: 20vh;
+    } 
+    #bottom{
+        min-height: 20vh;
+    }
+    #text #h1 {
+        font-size: 10vw;
+        margin-left: 102px;
+    }
+    #bthreetop {
+        padding: 19px;
+    }
+    #text {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    width: 112%;
+    bottom: 14%;
+    padding: 7px 12VW;
+    padding-left: 51px;
+    padding-top: 70px;}
+
+    #icons{
+        margin-left: 30px;
+    }
+}
+
+
+
+
