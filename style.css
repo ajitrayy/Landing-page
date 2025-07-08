@@ -110,13 +110,13 @@ margin-top: 40px;
 #right {
     align-items: center;
     display: flex;
-    width: 60%;
+    width: 64%;
     color: aliceblue;
     }
 
 #right p {
     font-size: 10px;
-    width: 25%;
+    width: 20%;
     text-align: right ;
     margin: 2px;
     justify-content: space-between ;
